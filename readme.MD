@@ -24,4 +24,16 @@ qual versão de ecmascript nós vamos usar e por ai vai..você pode ver todos os
 aqui: https://www.typescriptlang.org/pt/tsconfig
 
 
+# Motivos para usar?
 
+Bom primeiro que ele permite a gente escolher a versão na qual precisamos como, ES6, ES7 e etc..
+forte apoio a POO e FRP ( function reactive programming )
+Linguagem estática tpipada ajuda adepurar o código ( é mais prevísivel e fato de encontrar erros)
+E ele ajuda a retornar erros antes do tempo de execução.
+
+# TypeAnnotation
+
+É o valor que nós damos para uma variável relacionado ao tipo dela por exemplo:
+let nome: string; aqui estamos dizendo que a variável do tipo nome só recebe valores do tipo string.
+Lembrando que não é  obrigatório, mas é sempre recomendado utilizar para poder nós ajudar
+com os futuros erros e depuração.
