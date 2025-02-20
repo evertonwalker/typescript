@@ -16,7 +16,7 @@ carro = { nome: "Carro bom", modelo: "Fusca", preco: 100000 };
 console.log(carro);
 
 // --> Functions [ Type Annotations ]
-function multiplicarNumeros(num1: number, num2: number) {
+function multiplicarNumeros(num1: number, num2: number): number {
   return num1 * num2;
 }
 console.log(multiplicarNumeros(5, 5));
